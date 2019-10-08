@@ -1,0 +1,15 @@
+<form class="personal_form" action="/form" method="post">
+  <h1>Welcome <%=user%></h1>
+  <br>
+  <p>¿How old are you?</p><br>
+  <input class="age_input" type="text" name="age" value=""><br>
+  <p>¿Where are you from?</p><br>
+  <select class="" name="nationality"><br>
+    <option value="dominican">Dominican</option>
+    <option value="american">North American</option>
+    <option value="haitian">Haitian</option>
+    <option value="spanish">Spanish</option>
+  </select><br>
+  <input class="name_input" type="text" name="name" value="<%=user%>" hidden>
+  <button class="log_button" type="submit" name="button">Enviar</button>
+</form>

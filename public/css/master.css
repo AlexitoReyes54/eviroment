@@ -1,0 +1,78 @@
+*{
+  margin:0px;
+  font-family: 'Roboto', sans-serif;
+
+}
+nav{
+  width: 100%;
+  background: rgba(226,226,226,1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  box-shadow: 0px 0px 13px;
+}
+.logo{
+  height: 50px;
+  width: 50px;
+  border-radius: 100px;
+}
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height:70px;
+  width: 100%;
+  bottom: 0;
+  position:fixed;
+}
+.link{
+  margin: 2px;
+ text-decoration: none;
+ color: white;
+}
+h5{
+  color: white;
+}
+.form{
+height: 400px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+label{
+  font-size: 50px;
+}
+h1{
+  margin: 15px;
+}
+.name_input{
+  font-size: 18px;
+  color: grey;
+  text-align:center;
+  border-width: 2px;
+  border-radius: 7px;
+  border-color: black;
+  width: 200px;
+  height: 30px;
+}
+.log_button{
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+  border-width: 1px;
+  border-color: white;
+  background: green;
+  color: white;
+  font-size: 16px;
+}
+.personal_form{
+  margin-top: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
