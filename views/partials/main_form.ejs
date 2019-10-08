@@ -11,5 +11,9 @@
     <option value="spanish">Spanish</option>
   </select><br>
   <input class="name_input" type="text" name="name" value="<%=user%>" hidden>
+  <input id="plat" class="name_input" type="text" name="platform" value="" hidden>
   <button class="log_button" type="submit" name="button">Enviar</button>
 </form>
+<script>
+  var plat = document.getElementById('plat').value = navigator.platform
+</script>
