@@ -4,7 +4,7 @@ const path = require('path');
 var rutes = require('./rutes/routes.js')
 
 //setters and use
-app.set("port",1000);
+app.set("port",8080);
 app.set("view engine","ejs")
 app.use('/static', express.static(path.join(__dirname, 'public')));
 app.set("/views",path.join(__dirname, 'views'))
