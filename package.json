@@ -12,7 +12,7 @@
     "animate.css": "^3.7.2",
     "date-and-time": "^0.10.0",
     "ejs": "^2.7.1",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "twilio": "^3.35.1"
   }
 }
